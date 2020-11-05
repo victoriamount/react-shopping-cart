@@ -12,7 +12,7 @@ const Products = () => {
 		<div className="products-container">
 			{products.map(product => (
 				<Product
-					key={product.id}
+					key={Math.random()}
 					product={product}
 					addItem={addItem}
 				/>
